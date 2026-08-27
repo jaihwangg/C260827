@@ -3,6 +3,10 @@
 class AActor
 {
 public:
+	AActor()
+	{ }
+	~AActor()
+	{ }
 	
 };
 

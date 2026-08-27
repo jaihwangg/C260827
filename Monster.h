@@ -3,6 +3,11 @@
 
 class AMonster : public ACharacter
 {
+public:
+	AMonster()
+	{ }
+	~AMonster()
+	{ }
 
 };
 
