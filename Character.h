@@ -4,10 +4,8 @@
 class ACharacter : public AActor
 {
 public:
-	ACharacter()
-	{ }
-	~ACharacter()
-	{ }
+	ACharacter();
+	~ACharacter();
 	
 	void Move();
 	void Attack();

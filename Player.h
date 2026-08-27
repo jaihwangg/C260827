@@ -4,9 +4,7 @@
 class APlayer : public ACharacter
 {
 public:
-	APlayer()
-	{ }
-	~APlayer()
-	{ }
+	APlayer();
+	~APlayer();
 
 };

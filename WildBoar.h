@@ -1,7 +1,7 @@
 #pragma once
-#include "Character.h"
+#include "Monster.h"
 
-class AWildBoar : public ACharacter
+class AWildBoar : public AMonster
 {
 public:
 	AWildBoar();

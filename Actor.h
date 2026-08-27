@@ -3,10 +3,8 @@
 class AActor
 {
 public:
-	AActor()
-	{ }
-	~AActor()
-	{ }
+	AActor();
+	~AActor();
 	
 };
 

@@ -4,10 +4,8 @@
 class AMonster : public ACharacter
 {
 public:
-	AMonster()
-	{ }
-	~AMonster()
-	{ }
+	AMonster();
+	~AMonster();
 
 };
 

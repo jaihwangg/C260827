@@ -1,13 +1,11 @@
 #pragma once
 #include "Monster.h"
 
-class ASlime
+class ASlime : public AMonster
 {
 public:
-	ASlime()
-	{ }
-	~ASlime()
-	{ }
+	ASlime();
+	~ASlime();
 
 };
 
