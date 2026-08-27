@@ -46,7 +46,15 @@ int main()
 		Monster->Move();
 	}
 
+	//Delete
+	for (AMonster* Monster : VectorMonsters)
+	{
+		delete Monster;
+	}
+	VectorMonsters.clear();
 
+	delete GamePlayer;
+	GamePlayer = nullptr;
 
 	return 0;
 }
