@@ -5,8 +5,8 @@ class AWildBoar : public AMonster
 {
 public:
 	AWildBoar();
-	~AWildBoar();
+	virtual ~AWildBoar();
 
-
+	virtual void Move() override;
 };
 

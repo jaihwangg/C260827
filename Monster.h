@@ -5,7 +5,7 @@ class AMonster : public ACharacter
 {
 public:
 	AMonster();
-	~AMonster();
+	virtual ~AMonster();
 
 };
 

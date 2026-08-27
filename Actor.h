@@ -4,7 +4,7 @@ class AActor
 {
 public:
 	AActor();
-	~AActor();
+	virtual ~AActor();
 	
 };
 

@@ -5,10 +5,10 @@ class ACharacter : public AActor
 {
 public:
 	ACharacter();
-	~ACharacter();
+	virtual ~ACharacter();
 	
-	void Move();
-	void Attack();
+	virtual void Move();
+	virtual void Attack();
 
 };
 

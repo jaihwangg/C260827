@@ -5,7 +5,9 @@ class ASlime : public AMonster
 {
 public:
 	ASlime();
-	~ASlime();
+	virtual ~ASlime();
+
+	virtual void Move() override;
 
 };
 

@@ -5,6 +5,6 @@ class APlayer : public ACharacter
 {
 public:
 	APlayer();
-	~APlayer();
+	virtual ~APlayer();
 
 };

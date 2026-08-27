@@ -5,12 +5,12 @@ using namespace std;
 
 ACharacter::ACharacter()
 {
-
+	cout << "ACharacter »ý¼º" << endl;
 }
 
 ACharacter::~ACharacter()
 {
-
+	cout << "ACharacter ¼Ò¸ê" << endl;
 }
 
 void ACharacter::Move()

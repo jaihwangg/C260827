@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-	APlayer* GamePlayer = new APlayer;
+	APlayer* GamePlayer = new APlayer();
 
 	int NumSlimes = 3;
 	int NumGoblins = 2;
